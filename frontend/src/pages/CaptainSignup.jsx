@@ -61,7 +61,7 @@ const CaptainSignup = () => {
   return (
     <div className='py-5 px-5 h-screen flex flex-col justify-between'>
       <div>
-        <img className='w-20 mb-3' src="https://www.svgrepo.com/show/505031/uber-driver.svg" alt="" />
+         <h1 className='text-3xl font-bold text-gray-900 mb-10'>VELORIDE</h1>
 
         <form onSubmit={(e) => {
           submitHandler(e)

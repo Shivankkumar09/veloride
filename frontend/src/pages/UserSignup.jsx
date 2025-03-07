@@ -52,8 +52,7 @@ const UserSignup = () => {
     <div>
       <div className='p-7 h-screen flex flex-col justify-between'>
         <div>
-          <img className='w-16 mb-10' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQy-OIkA6In0fTvVwZADPmFFibjmszu2A0g&s" alt="" />
-
+        <h1 className='text-3xl font-bold text-gray-900 mb-10'>VELORIDE</h1>
           <form onSubmit={(e) => {
             submitHandler(e)
           }}>
